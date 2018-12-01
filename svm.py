@@ -135,7 +135,8 @@ plt.show()
 
 gamma= [0.125+(i/10 )for i in range(9)]
 C = [1.5 + i/10 for i in range(10)]
-
+print("C: ",C)
+print("Gamma: ",gamma)
 best_value_C = 0
 best_value_gamma = 0
 highest_accuracy = 0
